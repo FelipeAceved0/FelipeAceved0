@@ -9,9 +9,60 @@ jobs:
   update-readme:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: gautamkrishnar/blog-post-workflow@v1
+      - name: Checkout del repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
         with:
-          comment_tag_name: "PROJECTS"
-          feed_list: "https://github-feed-to-rss.vercel.app/FelipeAceved0"
-          max_post_count: 5
+          python-version: '3.x'
+
+      - name: Instalar requests
+        run: pip install requests
+
+      - name: Actualizar README con repositorios
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python -c "
+          import os
+          import requests
+
+          username = 'FelipeAceved0'
+          url = f'https://api.github.com/users/{username}/repos?sort=updated&per_page=5'
+          headers = {'Authorization': f'token {os.environ[\"GITHUB_TOKEN\"]}'} if 'GITHUB_TOKEN' in os.environ else {}
+
+          response = requests.get(url, headers=headers)
+          repos = response.json()
+
+          repo_list = []
+          for repo in repos:
+              name = repo['name']
+              html_url = repo['html_url']
+              desc = repo['description'] or 'Sin descripción disponible.'
+              repo_list.append(f'* [{name}]({html_url}) — {desc}')
+
+          content_to_insert = '\n'.join(repo_list)
+
+          with open('README.md', 'r', encoding='utf-8') as f:
+              readme = f.read()
+
+          start_tag = '<!-- PROJECTS:START -->'
+          end_tag = '<!-- PROJECTS:END -->'
+
+          if start_tag in readme and end_tag in readme:
+              start_idx = readme.find(start_tag) + len(start_tag)
+              end_idx = readme.find(end_tag)
+              new_readme = readme[:start_idx] + '\n' + content_to_insert + '\n' + readme[end_idx:]
+
+              with open('README.md', 'w', encoding='utf-8') as f:
+                  f.write(new_readme)
+          "
+
+      - name: Guardar cambios en el repositorio
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff-index --quiet HEAD || git commit -m "docs: actualizar proyectos recientes [skip ci]"
+          git push
