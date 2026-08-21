@@ -42,6 +42,11 @@ Desarrollador e Informático enfocado en la construcción de **software integral
 ## 🚀 Proyectos Recientes
 
 <!-- PROJECTS:START -->
+* [FelipeAceved0](https://github.com/FelipeAceved0/FelipeAceved0) — Sin descripción disponible.
+* [Portafolio](https://github.com/FelipeAceved0/Portafolio) — Sin descripción disponible.
+* [stockflow-manager](https://github.com/FelipeAceved0/stockflow-manager) — Sin descripción disponible.
+* [sistema-tickets-ia](https://github.com/FelipeAceved0/sistema-tickets-ia) — Sin descripción disponible.
+* [Pagina-web-Optica-AIEP](https://github.com/FelipeAceved0/Pagina-web-Optica-AIEP) — Primer proyecto de una pagina web completa hecha para AIEP
 <!-- PROJECTS:END -->
 ---
 
