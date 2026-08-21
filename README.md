@@ -41,8 +41,8 @@ Desarrollador e Informático enfocado en la construcción de **software integral
 
 ## 🚀 Proyectos Recientes
 
-<!--START_SECTION:activity-->
-<!--END_SECTION:activity-->
+<!-- PROJECTS:START -->
+<!-- PROJECTS:END -->
 ---
 
 ## 📬 Contacto & Redes
