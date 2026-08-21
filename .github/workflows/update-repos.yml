@@ -1,26 +1,4 @@
-name: Actualizar Proyectos Recientes
-
-on:
-  schedule:
-    - cron: '0 0 * * *'
-  workflow_dispatch:
-
-jobs:
-  update-readme:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout del repositorio
-        uses: actions/checkout@v4
-
-      - name: Configurar Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - name: Instalar requests
-        run: pip install requests
-
-      - name: Actualizar README con repositorios
+- name: Actualizar README con repositorios
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -39,8 +17,7 @@ jobs:
           for repo in repos:
               name = repo['name']
               html_url = repo['html_url']
-              desc = repo['description'] or 'Sin descripción disponible.'
-              repo_list.append(f'* [{name}]({html_url}) — {desc}')
+              repo_list.append(f'* [{name}]({html_url})')
 
           content_to_insert = '\n'.join(repo_list)
 
@@ -58,11 +35,3 @@ jobs:
               with open('README.md', 'w', encoding='utf-8') as f:
                   f.write(new_readme)
           "
-
-      - name: Guardar cambios en el repositorio
-        run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git diff-index --quiet HEAD || git commit -m "docs: actualizar proyectos recientes [skip ci]"
-          git push
