@@ -42,7 +42,6 @@ Desarrollador e Informático enfocado en la construcción de **software integral
 ## 🚀 Proyectos Recientes
 
 <!-- PROJECTS:START -->
-* [FelipeAceved0](https://github.com/FelipeAceved0/FelipeAceved0)
 * [Portafolio](https://github.com/FelipeAceved0/Portafolio)
 * [stockflow-manager](https://github.com/FelipeAceved0/stockflow-manager)
 * [sistema-tickets-ia](https://github.com/FelipeAceved0/sistema-tickets-ia)
