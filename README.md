@@ -53,6 +53,6 @@ Desarrollador e Informático enfocado en la construcción de **software integral
 
 Si buscas un desarrollador informático junior con disponibilidad inmediata para integrarse a tu equipo, escríbeme:
 
-[![Portfolio](https://img.shields.io/badge/Web-Portafolio-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://felipeaceved0.github.io/Portafolio/#projects)
+[![Portfolio](https://img.shields.io/badge/Web-Portafolio-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://felipeaceved0.github.io/Portafolio-Pagina-Web/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Felipe_Acevedo-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/felipe-ariel-acevedo-contreras-948410369)
 [![Gmail](https://img.shields.io/badge/Gmail-felipeacevedo954@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:felipeacevedo954@gmail.com)
