@@ -42,11 +42,11 @@ Desarrollador e Informático enfocado en la construcción de **software integral
 ## 🚀 Proyectos Recientes
 
 <!-- PROJECTS:START -->
+* [Pyme-Ecommerce](https://github.com/FelipeAceved0/Pyme-Ecommerce)
 * [Pagina-web-Optica-AIEP](https://github.com/FelipeAceved0/Pagina-web-Optica-AIEP)
 * [sistema-tickets-ia](https://github.com/FelipeAceved0/sistema-tickets-ia)
 * [stockflow-manager](https://github.com/FelipeAceved0/stockflow-manager)
 * [Portafolio](https://github.com/FelipeAceved0/Portafolio)
-* [RbacAuditSystem](https://github.com/FelipeAceved0/RbacAuditSystem)
 <!-- PROJECTS:END -->
 ---
 
