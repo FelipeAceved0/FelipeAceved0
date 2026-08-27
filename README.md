@@ -42,11 +42,11 @@ Desarrollador e Informático enfocado en la construcción de **software integral
 ## 🚀 Proyectos Recientes
 
 <!-- PROJECTS:START -->
+* [ChatconIA](https://github.com/FelipeAceved0/ChatconIA)
 * [Portafolio](https://github.com/FelipeAceved0/Portafolio)
 * [stockflow-manager](https://github.com/FelipeAceved0/stockflow-manager)
 * [sistema-tickets-ia](https://github.com/FelipeAceved0/sistema-tickets-ia)
 * [Pyme-Ecommerce](https://github.com/FelipeAceved0/Pyme-Ecommerce)
-* [Pagina-web-Optica-AIEP](https://github.com/FelipeAceved0/Pagina-web-Optica-AIEP)
 <!-- PROJECTS:END -->
 ---
 
