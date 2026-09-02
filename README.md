@@ -42,8 +42,8 @@ Desarrollador e Informático enfocado en la construcción de **software integral
 ## 🚀 Proyectos Recientes
 
 <!-- PROJECTS:START -->
-* [ChatconIA](https://github.com/FelipeAceved0/ChatconIA)
 * [Portafolio](https://github.com/FelipeAceved0/Portafolio)
+* [ChatconIA](https://github.com/FelipeAceved0/ChatconIA)
 * [stockflow-manager](https://github.com/FelipeAceved0/stockflow-manager)
 * [sistema-tickets-ia](https://github.com/FelipeAceved0/sistema-tickets-ia)
 * [Pyme-Ecommerce](https://github.com/FelipeAceved0/Pyme-Ecommerce)
