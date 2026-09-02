@@ -1,6 +1,6 @@
 # ¡Hola! Soy Felipe Acevedo 👋
 
-Desarrollador e Informático enfocado en la construcción de **software integral, arquitectura backend y sistemas relacionales**. Me especializo en transformar lógica de negocio compleja en soluciones sólidas, escalables y orientadas a resultados.
+Desarrollador e Informático enfocado en la construcción de **software integral, arquitectura backend, automatización de procesos y sistemas relacionales**. Me especializo en transformar lógica de negocio compleja en soluciones sólidas, escalables y orientadas a resultados.
 
 ---
 
@@ -23,17 +23,20 @@ Desarrollador e Informático enfocado en la construcción de **software integral
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
 ![HTML5/CSS3](https://img.shields.io/badge/HTML5%2FCSS3-E34F26?style=flat-square&logo=html5&logoColor=white)
 
-### **Herramientas & Entorno**
+### **Automatización & Herramientas**
+![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=flat-square&logo=xampp&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![XAMPP](https://img.shields.io/badge/XAMPP-FB7A24?style=flat-square&logo=xampp&logoColor=white)
 
 ---
 
 ## 🎯 Enfoque de Desarrollo
 
 - ⚙️ **Arquitectura & Modelado:** Diseño de modelos relacionales óptimos (DER), control de integridad de datos y normalización.
+- 🤖 **Automatización & Web Scraping:** Creación de bots, scripts de extracción de datos en páginas dinámicas y tareas programadas en segundo plano con **Playwright** y flujos en la nube (**GitHub Actions**).
 - 🔐 **Seguridad & Control:** Implementación de autenticación segura, control de acceso basado en roles (RBAC) y auditoría de eventos.
 - 🔄 **Integración Full-Stack:** Conexión fluida entre la lógica de servidor, consumo de APIs (AJAX/Fetch) y componentes de UI.
 
@@ -47,6 +50,7 @@ Desarrollador e Informático enfocado en la construcción de **software integral
 * [stockflow-manager](https://github.com/FelipeAceved0/stockflow-manager)
 * [sistema-tickets-ia](https://github.com/FelipeAceved0/sistema-tickets-ia)
 * [Pyme-Ecommerce](https://github.com/FelipeAceved0/Pyme-Ecommerce)
+* **Radar de Empleos TI:** Automatización y web scraping multi-portal con Playwright, filtrado inteligente y alertas por correo vía GitHub Actions 24/7.
 <!-- PROJECTS:END -->
 ---
 
