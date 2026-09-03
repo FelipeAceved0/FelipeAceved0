@@ -50,7 +50,6 @@ Desarrollador e Informático enfocado en la construcción de **software integral
 * [stockflow-manager](https://github.com/FelipeAceved0/stockflow-manager)
 * [sistema-tickets-ia](https://github.com/FelipeAceved0/sistema-tickets-ia)
 * [Pyme-Ecommerce](https://github.com/FelipeAceved0/Pyme-Ecommerce)
-* **Radar de Empleos TI:** Automatización y web scraping multi-portal con Playwright, filtrado inteligente y alertas por correo vía GitHub Actions 24/7.
 <!-- PROJECTS:END -->
 ---
 
